@@ -16,11 +16,13 @@ namespace CoreQRS
         {
             if(httpContext.Request.Method =="GET"){
                 var query = _queryFactory.CreateQuery(httpContext);
+                if(query != null){
+                    var res = await query.GetResultsAsync();
+                }
+                httpContext.Response.StatusCode = 404;
+                //query result handler
             }
-            //query factory
-            //execute
-            //query result handler
-           
+                      
             await _next.Invoke(httpContext);
         }
     }
