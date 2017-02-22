@@ -1,7 +1,7 @@
 ## Introduction
 The purpose of this project is to prvide a middleware for asp.net core for building an app
 relying on Command and Query Resonsibility Segregation :
-  - GET = Query
+  - GET = Query.
   - POST = Command
   - DELETE/PUT/HEAD doesn't exists here
   - Use of Accept for for determining of the Query resul will be displayed : razor/json/xml/txt ...
