@@ -4,6 +4,8 @@
     "debugType": "portable"
   },
   "dependencies": {
+    "Microsoft.AspNetCore.Http":"1.1.0",
+    "Moq": "4.7.0",
     "System.Runtime.Serialization.Primitives": "4.3.0",
     "xunit": "2.1.0",
     "dotnet-test-xunit": "1.0.0-rc2-192208-24",
