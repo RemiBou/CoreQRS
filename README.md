@@ -1,5 +1,5 @@
 ## Introduction
-The purpose of this project is to prvide a middleware for asp.net core for building an app
+The purpose of this project is to provide a middleware for asp.net core for building an app
 relying on Command and Query Resonsibility Segregation :
   - GET = Query
   - POST = Command
